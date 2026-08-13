@@ -5,15 +5,15 @@
   --font-body: "Inter", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
-  --color-ink: #08080a;
-  --color-panel: #121214;
-  --color-panel-2: #1a1a1d;
-  --color-line: #2a2a2e;
-  --color-paper: #f4f2ee;
-  --color-mute: #8d8d93;
-  --color-signal: #e6231e;
-  --color-ember: #ff5a3c;
-  --color-circuit: #ff2b2b;
+  --color-ink: #05070d;
+  --color-panel: #0c1220;
+  --color-panel-2: #141c30;
+  --color-line: #23304a;
+  --color-paper: #eef1f8;
+  --color-mute: #8590ab;
+  --color-signal: #2f6fed;
+  --color-ember: #4fa3ff;
+  --color-circuit: #4f8bff;
 }
 
 html {
@@ -44,12 +44,12 @@ body {
   stroke: var(--color-circuit);
   stroke-width: 1.5;
   fill: none;
-  filter: drop-shadow(0 0 4px rgba(255, 43, 43, 0.55));
+  filter: drop-shadow(0 0 4px rgba(79, 139, 255, 0.55));
 }
 
 .node-dot {
   fill: var(--color-circuit);
-  filter: drop-shadow(0 0 6px rgba(255, 43, 43, 0.8));
+  filter: drop-shadow(0 0 6px rgba(79, 139, 255, 0.8));
 }
 
 .grid-bg {
@@ -67,11 +67,11 @@ body {
 }
 
 .glow-btn {
-  box-shadow: 0 0 0 rgba(230, 35, 30, 0);
+  box-shadow: 0 0 0 rgba(47, 111, 237, 0);
   transition: box-shadow 0.35s ease, transform 0.25s ease;
 }
 .glow-btn:hover {
-  box-shadow: 0 0 28px rgba(230, 35, 30, 0.45);
+  box-shadow: 0 0 28px rgba(47, 111, 237, 0.45);
   transform: translateY(-2px);
 }
 
@@ -95,4 +95,3 @@ body {
 .input:focus {
   border-color: var(--color-signal);
 }
-
