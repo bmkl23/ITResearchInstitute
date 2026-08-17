@@ -5,6 +5,8 @@ import {
   Megaphone,
   Users,
   ShieldCheck,
+  ClipboardList,
+  FlaskConical,
 } from "lucide-react";
 
 export const services = [
@@ -43,6 +45,18 @@ export const services = [
     icon: ShieldCheck,
     title: "Cybersecurity",
     desc: "Audits, hardening, and monitoring that keep your systems, data, and users protected around the clock.",
+  },
+  {
+    tag: "pm",
+    icon: ClipboardList,
+    title: "Project Management",
+    desc: "Structured planning, sprint tracking, and stakeholder communication that keep complex projects on time and on budget.",
+  },
+  {
+    tag: "medical",
+    icon: FlaskConical,
+    title: "Medical Research & Innovation",
+    desc: "Data-driven research support and digital tools for clinical studies, helping teams move from hypothesis to publication faster.",
   },
 ];
 
@@ -94,10 +108,28 @@ export const caseStudies = [
 ];
 
 export const team = [
-  { name: "Sanduni Fernando", role: "CEO & Founder" },
-  { name: "Ravindu Perera", role: "Head of Engineering" },
-  { name: "Nethmi Jayasuriya", role: "Head of Design" },
-  { name: "Dilan Wickramasinghe", role: "Head of AI Research" },
-  { name: "Ishara Gunawardena", role: "Project Management Lead" },
-  { name: "Chamath Silva", role: "Security Lead" },
+  {
+    name: "Kasun Weerasekara",
+    role: "CEO & Co-Founder",
+    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd.",
+    photo: "", // TODO: add photo path/URL, e.g. "/team/kasun.jpg"
+  },
+  {
+    name: "Subhath Abeysekara",
+    role: "Technical Consultant & Co-Founder",
+    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research ,University of Moratuwa | B.Sc. (Hons.) in IT, University of Moratuwa",
+    photo: "", // TODO: add photo path/URL, e.g. "/team/subhath.jpg"
+  },
+  {
+    name: "Dr. Janani Dias",
+    role: "Project Manager / Medical Researcher",
+    bio: "MBBS Undergraduate, University of Peradeniya.",
+    photo: "", // TODO: add photo path/URL, e.g. "/team/janani.jpg"
+  },
+  {
+    name: "BMK Lakshan",
+    role: "Design Specialist",
+    bio: "",
+    photo: "", // TODO: add photo path/URL, e.g. "/team/lakshan.jpg"
+  },
 ];

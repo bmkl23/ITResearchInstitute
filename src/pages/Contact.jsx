@@ -8,22 +8,22 @@ const infoItems = [
   {
     icon: MapPin,
     title: "Office Address",
-    lines: ["No: 12/A, Innovation Road", "Colombo, Sri Lanka", "Postcode: 00300"],
+    lines: ["Moratuwa, Sri Lanka", "Postcode: 10400"],
   },
   {
     icon: Phone,
     title: "Phone Number",
-    lines: ["+94 76 000 0000", "+94 71 000 0000"],
+    lines: ["+94 70 299 4459"],
   },
   {
     icon: Mail,
     title: "Email Address",
-    lines: ["hello@ittech.com", "support@ittech.com"],
+    lines: ["edulifesolutionslanka@gmail.com", "mirobits.projects@gmail.com"],
   },
   {
     icon: Clock,
     title: "Business Hours",
-    lines: ["Mon – Fri: 9:00 AM – 6:00 PM", "Sat: 10:00 AM – 2:00 PM", "Sun: Closed"],
+    lines: ["24 x 7 Working"],
   },
 ];
 
@@ -175,7 +175,7 @@ export default function Contact() {
               <h2 className="font-display text-xl font-semibold">Get In Touch</h2>
               <p className="mt-2 text-sm text-paper/65">
                 Choose your preferred way to reach us — we'll respond
-                promptly.
+                promptly 24 x 7.
               </p>
               <div className="mt-7 flex flex-col gap-6">
                 {infoItems.map((item) => {

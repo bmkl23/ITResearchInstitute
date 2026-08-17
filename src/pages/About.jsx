@@ -8,7 +8,7 @@ const values = [
   {
     icon: Target,
     title: "Precision",
-    desc: "We scope tight and build exactly what moves the needle — nothing bolted on for show.",
+    desc: "We scope tight and build exactly what moves the needle - nothing bolted on for show.",
   },
   {
     icon: Compass,
@@ -18,7 +18,7 @@ const values = [
   {
     icon: Sparkles,
     title: "Craft",
-    desc: "Code, design, and copy get the same level of care — the details are the product.",
+    desc: "Code, design, and copy get the same level of care - the details are the product.",
   },
 ];
 
@@ -93,21 +93,32 @@ export default function About() {
             </h2>
           </Reveal>
 
-          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {team.map((m, i) => (
               <Reveal key={m.name} delay={i * 0.05}>
                 <div className="group overflow-hidden rounded-2xl border border-line bg-panel">
-                  <div className="flex aspect-[4/3] items-center justify-center bg-gradient-to-br from-panel-2 to-ink">
-                    <span className="font-display text-4xl font-semibold text-signal/30 transition-colors group-hover:text-signal/50">
-                      {m.name.split(" ").map((n) => n[0]).join("")}
-                    </span>
+                  <div className="relative aspect-[4/3] overflow-hidden bg-gradient-to-br from-panel-2 to-ink">
+                    {m.photo ? (
+                      <img
+                        src={m.photo}
+                        alt={m.name}
+                        className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="flex h-full w-full items-center justify-center">
+                        <span className="font-display text-4xl font-semibold text-signal/30 transition-colors group-hover:text-signal/50">
+                          {m.name.split(" ").map((n) => n[0]).join("")}
+                        </span>
+                      </div>
+                    )}
+                    <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent" />
                   </div>
                   <div className="p-5">
                     <h3 className="font-display text-base font-semibold">
                       {m.name}
                     </h3>
-                    <p className="mt-1 font-mono text-xs uppercase tracking-wider text-signal">
-                      {m.role}
+                    <p className="mt-2 text-sm leading-relaxed text-paper/65">
+                      {m.bio || m.role}
                     </p>
                   </div>
                 </div>

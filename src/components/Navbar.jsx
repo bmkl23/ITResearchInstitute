@@ -33,7 +33,7 @@ export default function Navbar() {
             <Zap size={18} strokeWidth={2.5} />
           </span>
           <span className="font-display text-lg font-semibold tracking-tight">
-            IT<span className="text-signal">TECH</span>
+            Edulife<span className="text-signal"> Solutions</span>
           </span>
         </NavLink>
 
