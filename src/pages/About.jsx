@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { ArrowRight, Target, Compass, Sparkles } from "lucide-react";
 import Atmosphere from "../components/Atmosphere";
+import CircuitPattern from "../components/CircuitPattern";
 import Reveal from "../components/Reveal";
 import { team } from "../data/content";
 
@@ -44,8 +45,9 @@ export default function About() {
         </div>
       </section>
 
-      <section className="relative border-t border-line py-20">
-        <div className="mx-auto max-w-5xl px-5 md:px-10 md:pl-20">
+      <section className="relative overflow-hidden border-t border-line py-20">
+        <CircuitPattern />
+        <div className="relative mx-auto max-w-5xl px-5 md:px-10 md:pl-20">
           <Reveal>
             <p className="font-mono text-xs uppercase tracking-widest text-signal">
               who we are
@@ -82,8 +84,9 @@ export default function About() {
         </div>
       </section>
 
-      <section className="relative border-t border-line py-20">
-        <div className="mx-auto max-w-7xl px-5 md:px-10 md:pl-20">
+      <section className="relative overflow-hidden border-t border-line py-20">
+        <CircuitPattern />
+        <div className="relative mx-auto max-w-7xl px-5 md:px-10 md:pl-20">
           <Reveal>
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-signal">
               &gt;&gt; our_team
@@ -114,12 +117,17 @@ export default function About() {
                     <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/80 via-transparent to-transparent" />
                   </div>
                   <div className="p-5">
+                    <span className="mb-1.5 inline-block rounded-md border border-signal/40 bg-signal/10 px-2 py-0.5 font-mono text-[10px] uppercase leading-snug tracking-wide text-signal">
+                      {m.role}
+                    </span>
                     <h3 className="font-display text-base font-semibold">
                       {m.name}
                     </h3>
-                    <p className="mt-2 text-sm leading-relaxed text-paper/65">
-                      {m.bio || m.role}
-                    </p>
+                    {m.bio && (
+                      <p className="mt-2 text-sm leading-relaxed text-paper/65">
+                        {m.bio}
+                      </p>
+                    )}
                   </div>
                 </div>
               </Reveal>

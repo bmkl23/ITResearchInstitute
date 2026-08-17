@@ -129,7 +129,7 @@ export const team = [
   {
     name: "BMK Lakshan",
     role: "Design Specialist",
-    bio: "",
+    bio: "Front End Engineer & UI/UX Designer at i211 Solutions. Currently pursuing the Peritus Research Bootcamp in Artificial Intelligence & Machine Learning. B.Sc. (Hons.) in ITM, University of Moratuwa",
     photo: "", // TODO: add photo path/URL, e.g. "/team/lakshan.jpg"
   },
 ];
