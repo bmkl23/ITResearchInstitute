@@ -175,7 +175,7 @@ export default function Contact() {
               <h2 className="font-display text-xl font-semibold">Get In Touch</h2>
               <p className="mt-2 text-sm text-paper/65">
                 Choose your preferred way to reach us — we'll respond
-                promptly 24 x 7.
+                promptly, 24 x 7.
               </p>
               <div className="mt-7 flex flex-col gap-6">
                 {infoItems.map((item) => {

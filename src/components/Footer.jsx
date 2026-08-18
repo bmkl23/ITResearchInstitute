@@ -14,7 +14,7 @@ export default function Footer() {
                 <Zap size={16} strokeWidth={2.5} />
               </span>
               <span className="font-display text-base font-semibold">
-                IT<span className="text-signal">TECH</span>
+                Edulife<span className="text-signal"> Solutions</span>
               </span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-mute">
@@ -55,8 +55,8 @@ export default function Footer() {
               <li>Web Development</li>
               <li>Mobile Apps</li>
               <li>AI &amp; Machine Learning</li>
-              <li>Cybersecurity</li>
-              <li>Digital Marketing</li>
+              <li>Project Management</li>
+              <li>Medical Research &amp; Innovation</li>
             </ul>
           </div>
 
@@ -65,15 +65,18 @@ export default function Footer() {
               Contact
             </p>
             <ul className="mt-4 space-y-2 text-sm text-paper/70">
-              <li>hello@ittech.com</li>
-              <li>+94 76 000 0000</li>
-              <li>Colombo, Sri Lanka</li>
+              <li>Moratuwa, Sri Lanka</li>
+              <li>Postcode: 10400</li>
+              <li>+94 70 299 4459</li>
+              <li>edulifesolutionslanka@gmail.com</li>
+              <li>mirobits.projects@gmail.com</li>
+              <li className="pt-1 text-paper/50">24 x 7 — always open</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-line pt-6 text-xs text-mute md:flex-row">
-          <p>© {new Date().getFullYear()} IT Tech. All systems operational.</p>
+          <p>© {new Date().getFullYear()} Edulife Solutions. All systems operational.</p>
           <p className="font-mono">Built with React · Vite · Tailwind</p>
         </div>
       </div>
