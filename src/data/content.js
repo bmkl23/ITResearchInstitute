@@ -124,7 +124,7 @@ export const team = [
   {
     name: "Subhath Abeysekara",
     role: "Technical Consultant & Co-Founder",
-    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research ,University of Moratuwa | B.Sc. (Hons.) in IT, University of Moratuwa",
+    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research ,University of Moratuwa | B.Sc. (Hons.) in IT",
     photo: subhathPhoto,
     photoPosition: "center top",
   },
