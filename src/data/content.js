@@ -116,7 +116,7 @@ export const team = [
   {
     name: "Kasun Weerasekara",
     role: "CEO & Co-Founder",
-    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd. | B.Sc. (Hons.) in IT University of Moratuwa",
+    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd. | B.Sc. (Hons.) in IT, University of Moratuwa",
     photo: kasunPhoto,
     photoPosition: "center",
     photoFit: "contain",
@@ -124,7 +124,7 @@ export const team = [
   {
     name: "Subhath Abeysekara",
     role: "Technical Consultant & Co-Founder",
-    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research | B.Sc. (Hons.) in IT University of Moratuwa",
+    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research | B.Sc. (Hons.) in IT, University of Moratuwa",
     photo: subhathPhoto,
     photoPosition: "center top",
   },
