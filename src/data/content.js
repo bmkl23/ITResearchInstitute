@@ -9,7 +9,7 @@ import {
   FlaskConical,
 } from "lucide-react";
 
-import kasunPhoto from "../img/Kasun.jpeg";
+import kasunPhoto from "../img/kasun new.jpeg";
 import subhathPhoto from "../img/Subath.jpeg";
 import jananiPhoto from "../img/Dr Janani.jpeg";
 import lakshanPhoto from "../img/BMK Lakshan.jpeg";
