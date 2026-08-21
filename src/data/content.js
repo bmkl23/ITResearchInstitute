@@ -116,7 +116,7 @@ export const team = [
   {
     name: "Kasun Weerasekara",
     role: "CEO & Co-Founder",
-    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd.",
+    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd. | University of Moratuwa | B.Sc. (Hons.) in IT",
     photo: kasunPhoto,
     photoPosition: "center",
     photoFit: "contain",
