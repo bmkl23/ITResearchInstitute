@@ -116,7 +116,7 @@ export const team = [
   {
     name: "Kasun Weerasekara",
     role: "CEO & Co-Founder",
-    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd. | University of Moratuwa | B.Sc. (Hons.) in IT",
+    bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd. | B.Sc. (Hons.) in IT University of Moratuwa",
     photo: kasunPhoto,
     photoPosition: "center",
     photoFit: "contain",
@@ -124,7 +124,7 @@ export const team = [
   {
     name: "Subhath Abeysekara",
     role: "Technical Consultant & Co-Founder",
-    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research ,University of Moratuwa | B.Sc. (Hons.) in IT",
+    bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research | B.Sc. (Hons.) in IT University of Moratuwa",
     photo: subhathPhoto,
     photoPosition: "center top",
   },
@@ -138,7 +138,7 @@ export const team = [
   {
     name: "BMK Lakshan",
     role: "Design Specialist",
-    bio: "Front End Engineer & UI/UX Designer at i211 Solutions. Currently pursuing the Peritus Research Bootcamp in Artificial Intelligence & Machine Learning. B.Sc. (Hons.) in ITM, University of Moratuwa",
+    bio: "Front End Engineer & UI/UX Designer at i211 Solutions. Currently pursuing the Peritus Research Bootcamp in Artificial Intelligence & Machine Learning | B.Sc. (Hons.) in ITM, University of Moratuwa",
     photo: lakshanPhoto,
     photoPosition: "center top",
   },
