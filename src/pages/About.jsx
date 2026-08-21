@@ -105,7 +105,10 @@ export default function About() {
                       <img
                         src={m.photo}
                         alt={m.name}
-                        className="h-full w-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                        style={{ objectPosition: m.photoPosition || "center" }}
+                        className={`h-full w-full transition-transform duration-500 group-hover:scale-105 ${
+                          m.photoFit === "contain" ? "object-contain" : "object-cover"
+                        }`}
                       />
                     ) : (
                       <div className="flex h-full w-full items-center justify-center">

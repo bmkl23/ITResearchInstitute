@@ -9,6 +9,11 @@ import {
   FlaskConical,
 } from "lucide-react";
 
+import kasunPhoto from "../img/Kasun.jpeg";
+import subhathPhoto from "../img/Subath.jpeg";
+import jananiPhoto from "../img/Dr Janani.jpeg";
+import lakshanPhoto from "../img/BMK Lakshan.jpeg";
+
 export const services = [
   {
     tag: "web",
@@ -112,24 +117,29 @@ export const team = [
     name: "Kasun Weerasekara",
     role: "CEO & Co-Founder",
     bio: "Former Software Engineer at IFS R&D International (Pvt) Ltd.",
-    photo: "", // TODO: add photo path/URL, e.g. "/team/kasun.jpg"
+    photo: kasunPhoto,
+    photoPosition: "center",
+    photoFit: "contain",
   },
   {
     name: "Subhath Abeysekara",
     role: "Technical Consultant & Co-Founder",
     bio: "Software & AI Solutions Architect | Tech Lead | AI & Blockchain Researcher | IEEE & Springer Published Author | Research Supervisor – BIT Program | Co-founder peritus research ,University of Moratuwa | B.Sc. (Hons.) in IT, University of Moratuwa",
-    photo: "", // TODO: add photo path/URL, e.g. "/team/subhath.jpg"
+    photo: subhathPhoto,
+    photoPosition: "center top",
   },
   {
     name: "Dr. Janani Dias",
     role: "Project Manager / Medical Researcher",
     bio: "MBBS Undergraduate, University of Peradeniya.",
-    photo: "", // TODO: add photo path/URL, e.g. "/team/janani.jpg"
+    photo: jananiPhoto,
+    photoPosition: "center 20%",
   },
   {
     name: "BMK Lakshan",
     role: "Design Specialist",
     bio: "Front End Engineer & UI/UX Designer at i211 Solutions. Currently pursuing the Peritus Research Bootcamp in Artificial Intelligence & Machine Learning. B.Sc. (Hons.) in ITM, University of Moratuwa",
-    photo: "", // TODO: add photo path/URL, e.g. "/team/lakshan.jpg"
+    photo: lakshanPhoto,
+    photoPosition: "center top",
   },
 ];
